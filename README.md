@@ -1,12 +1,27 @@
-# React + Vite
+# This is to track the knowledge of ReactJS
+## Roadmap
+1. Components, JSX, 
+2. Props, State, Events Handling and Forms
+3. Hooks: useState/useEffect/useContext/useReducer
+4. Component Lifecycle & Effects
+5. Routing and State Management
+6. Practice and Projects
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Introduction
+1. React is a library deveploped by Facebook for creating SPA applications
+2. React apps are make up by *components*, that contains a JSX template, utimated output HTML elements
 
-Currently, two official plugins are available:
+## Setup an React app
+```bash
+npm create vite@latest my-app
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+cd my-app
 
-## Expanding the ESLint configuration
+npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+npm run dev
+```
+
+## why reacts?
+1. Composable: can created easily reuseable and interchargeable that can be combined in various ways in a complex system
+2. Declarative: 
