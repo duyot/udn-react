@@ -93,6 +93,10 @@ button:focus-visible {
   transform: translateY(-2px);
 }
 
+li.selected{
+  background-color: #535bf2;
+}
+
 .nav li::after {
   content: '';
   position: absolute;
