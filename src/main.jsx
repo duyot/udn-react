@@ -3,7 +3,8 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import Product from './Product.jsx'
-
+import Contact from "./components/Contact.jsx";
+import Fruits from "./components/Fruits.jsx";
 
 // eslint-disable-next-line react-refresh/only-export-components
 function Header() {
@@ -24,6 +25,7 @@ function Header() {
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
+    <Fruits />
     <App />
     <Product name="Product 1" price={100} />
   </StrictMode>,
