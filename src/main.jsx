@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Product from './Product.jsx'
 
 
+// eslint-disable-next-line react-refresh/only-export-components
 function Header() {
   return (
     <div className="header">
@@ -24,6 +25,6 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Header />
     <App />
-    <Product />
+    <Product name="Product 1" price={100} />
   </StrictMode>,
 )
