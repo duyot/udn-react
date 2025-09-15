@@ -5,6 +5,7 @@ import App from './App.jsx'
 import Product from './Product.jsx'
 import Contact from "./components/Contact.jsx";
 import Fruits from "./components/Fruits.jsx";
+import Hello from "./components/Hello.jsx";
 
 // eslint-disable-next-line react-refresh/only-export-components
 function Header() {
@@ -28,5 +29,6 @@ createRoot(document.getElementById('root')).render(
     <Fruits />
     <App />
     <Product name="Product 1" price={100} />
+    <Hello />
   </StrictMode>,
 )
